@@ -1,0 +1,54 @@
+body {
+	background-color: lightgrey;
+}
+
+img[src="images/logo_shoe.png"] {
+	position: absolute;
+	right: 50px;
+	top: 15px;
+	height: 125px;
+	background-color:  white;
+}
+
+h1{
+	font-size: 36px;
+	text-align: center;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+nav li a {
+  display: block;
+  color: #BF2315;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid #555;
+}
+
+/* Change the link color on hover */
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+nav li a.active {
+  background-color: #730202;
+  color: #000;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+nav li:last-child {
+  border-bottom: none;
+}
