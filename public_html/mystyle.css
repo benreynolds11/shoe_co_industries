@@ -11,6 +11,7 @@ img[src="images/logo_shoe.png"] {
 }
 
 h1{
+	border-style: solid;
 	font-size: 36px;
 	text-align: center;
 }
@@ -51,4 +52,41 @@ nav li a:hover:not(.active) {
 
 nav li:last-child {
   border-bottom: none;
+}
+
+#shoe{
+	border-style: solid;
+	border-color: #730202;
+}
+
+p a:link{
+	color: #F28705;
+}
+
+p a:visited {
+	color: #730202;
+}
+
+p a:hover {
+  color: white;
+}
+
+p a:active {
+  color: #000;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse:  collapse;
+  height: 50px;
+}
+
+th {
+  background-color: #BF2315;
+  color: #000;
+}
+
+.borders {
+	border-style: solid;
+	border-color: #000;
 }
